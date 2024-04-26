@@ -1,0 +1,303 @@
+body {
+    background-color: rgb(26, 1, 32);
+}
+
+.solo {
+    font-size: 40px;
+    color: rgb(75, 36, 247);
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.code {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    bottom: 95px;
+    margin-left: 300px;
+}
+
+.dis {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    bottom: 95px;
+    margin-left: 70px;
+}
+
+.get {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    bottom: 95px;
+    margin-left: 80px;
+}
+
+.team {
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 160px;
+    position: relative;
+    bottom: 95px;
+    margin-left: 70px;
+}
+
+.pars {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin-left: 950px;
+    position: relative;
+    bottom: 160px;
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgb(26, 1, 32);
+    border: 2px solid blue;
+    color: blue;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: aqua;
+    transition: ease-in-out 0.1s;
+}
+
+.bt2 {
+    margin-left: 1150px;
+    position: relative;
+    bottom: 203px;
+    border-radius: 5px;
+    background-color: rgb(88, 88, 245);
+    width: 150px;
+    height: 45px;
+    color: white;
+    font-size: 17px;
+    border: 2px solid blue;
+}
+
+.bt2:hover {
+    background-color: aqua;
+    color: black;
+    transition: ease-in-out 0.1s;
+}
+
+.best {
+    font-size: 85px;
+    color: white;
+    position: relative;
+    bottom: 275px;
+    margin-left: 190px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.best2 {
+    font-size: 79px;
+    color: white;
+    position: relative;
+    bottom: 365px;
+    margin-left: 480px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+}
+
+.world {
+    color: rgb(240, 233, 233);
+    position: relative;
+    bottom: 450px;
+    font-size: 30px;
+    margin-left: 310px;
+    font-weight: 700px;
+}
+
+.world2 {
+    color: rgb(240, 233, 233);
+    position: relative;
+    bottom: 470px;
+    font-size: 28px;
+    margin-left: 400px;
+    font-weight: 700px;
+}
+
+.start {
+    height: 45px;
+    width: 260px;
+    border: 2px solid blue;
+    border-radius: 4px;
+    position: relative;
+    bottom: 450px;
+    margin-left: 510px;
+    background-color: rgb(55, 55, 233);
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.start:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: ease-in-out 0.1s;
+}
+
+hr {
+    width: 390px;
+    position: relative;
+    bottom: 410px;
+    right: 40px;
+}
+
+.google {
+    width: 115px;
+    height: 45px;
+    border: 2px solid red;
+    border-radius: 6px;
+    background-color: red;
+    position: relative;
+    bottom: 390px;
+    margin-left: 450px;
+    color: white;
+    font-size: 17;
+    font-weight: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.google:hover {
+    background-color: #ffffff;
+    color: red;
+    transition: ease-in-out 0.1s;
+}
+
+.apple:hover {
+    background-color: red;
+    color: white;
+    transition: ease-in-out 0.1s;
+}
+
+.face:hover {
+    background-color: white;
+    color: blue;
+    transition: ease-in-out 0.1s;
+
+}
+
+.apple {
+    width: 115px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: white;
+    position: relative;
+    bottom: 390px;
+    margin-left: 20px;
+}
+
+.face {
+    width: 115px;
+    color: #ffffff;
+    height: 45px;
+    border: 2px solid blue;
+    border-radius: 6px;
+    background-color: rgb(27, 27, 245);
+    position: relative;
+    bottom: 390px;
+    margin-left: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 18rem;
+    margin-left: 97px;
+}
+
+.bal {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(15, 182, 65);
+    animation: bal 1s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes bal {
+    from {
+        transform: translatey(0%);
+        background-color: aqua;
+    }
+
+    to {
+        transform: translatey(-100%);
+        background-color: red;
+
+    }
+
+}
+
+.bal2 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(15, 182, 65);
+    animation: bal 1s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes bal {
+    from {
+        transform: translatey(0%);
+        background-color: aqua;
+    }
+
+    to {
+        transform: translatey(-100%);
+        background-color: red;
+
+    }
+
+}
+
+.bal3 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(15, 182, 65);
+    animation: bal 1s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes bal {
+    from {
+        transform: translatey(0%);
+        background-color: aqua;
+    }
+
+    to {
+        transform: translatey(-100%);
+        background-color: red;
+
+    }
+
+}
+
+.bal4 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(15, 182, 65);
+    animation: bal 1s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes bal {
+    from {
+        transform: translatey(0%);
+        background-color: aqua;
+    }
+
+    to {
+        transform: translatey(-114%);
+        background-color: red;
+
+    }
+
+}
